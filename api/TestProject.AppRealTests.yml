@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject.AppRealTests
+  commentId: T:TestProject.AppRealTests
+  id: AppRealTests
+  parent: TestProject
+  children:
+  - TestProject.AppRealTests.Constructor_ShouldInitializeInstance
+  - TestProject.AppRealTests.Restrictions_ShouldNotThrowException
+  - TestProject.AppRealTests.Setup
+  langs:
+  - csharp
+  - vb
+  name: AppRealTests
+  nameWithType: AppRealTests
+  fullName: TestProject.AppRealTests
+  type: Class
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppRealTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppRealTests
+    path: ../TestProject/AppRealTests.cs
+    startLine: 7
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Unit Tests for the <xref href="WinFormsApp2.AppReal" data-throw-if-not-resolved="false"></xref> class, verifying its behavior and functionality.
+  example: []
+  syntax:
+    content: >-
+      [TestFixture]
+
+      public class AppRealTests
+    content.vb: >-
+      <TestFixture>
+
+      Public Class AppRealTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NUnit.Framework.TestFixtureAttribute
+    ctor: NUnit.Framework.TestFixtureAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppRealTests.Setup
+  commentId: M:TestProject.AppRealTests.Setup
+  id: Setup
+  parent: TestProject.AppRealTests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: AppRealTests.Setup()
+  fullName: TestProject.AppRealTests.Setup()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppRealTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Setup
+    path: ../TestProject/AppRealTests.cs
+    startLine: 18
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Sets up the test environment by initializing a new instance of <xref href="WinFormsApp2.AppReal" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [SetUp]
+
+      public void Setup()
+    content.vb: >-
+      <SetUp>
+
+      Public Sub Setup()
+  overload: TestProject.AppRealTests.Setup*
+  attributes:
+  - type: NUnit.Framework.SetUpAttribute
+    ctor: NUnit.Framework.SetUpAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppRealTests.Restrictions_ShouldNotThrowException
+  commentId: M:TestProject.AppRealTests.Restrictions_ShouldNotThrowException
+  id: Restrictions_ShouldNotThrowException
+  parent: TestProject.AppRealTests
+  langs:
+  - csharp
+  - vb
+  name: Restrictions_ShouldNotThrowException()
+  nameWithType: AppRealTests.Restrictions_ShouldNotThrowException()
+  fullName: TestProject.AppRealTests.Restrictions_ShouldNotThrowException()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppRealTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Restrictions_ShouldNotThrowException
+    path: ../TestProject/AppRealTests.cs
+    startLine: 28
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Tests that the Restrictions method does not throw any exceptions when called.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Restrictions_ShouldNotThrowException()
+    content.vb: >-
+      <Test>
+
+      Public Sub Restrictions_ShouldNotThrowException()
+  overload: TestProject.AppRealTests.Restrictions_ShouldNotThrowException*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppRealTests.Constructor_ShouldInitializeInstance
+  commentId: M:TestProject.AppRealTests.Constructor_ShouldInitializeInstance
+  id: Constructor_ShouldInitializeInstance
+  parent: TestProject.AppRealTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldInitializeInstance()
+  nameWithType: AppRealTests.Constructor_ShouldInitializeInstance()
+  fullName: TestProject.AppRealTests.Constructor_ShouldInitializeInstance()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppRealTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Constructor_ShouldInitializeInstance
+    path: ../TestProject/AppRealTests.cs
+    startLine: 46
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Tests that the constructor of <xref href="WinFormsApp2.AppReal" data-throw-if-not-resolved="false"></xref> correctly initializes an instance.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Constructor_ShouldInitializeInstance()
+    content.vb: >-
+      <Test>
+
+      Public Sub Constructor_ShouldInitializeInstance()
+  overload: TestProject.AppRealTests.Constructor_ShouldInitializeInstance*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+references:
+- uid: WinFormsApp2.AppReal
+  commentId: T:WinFormsApp2.AppReal
+  href: WinFormsApp2.AppReal.html
+  name: AppReal
+  nameWithType: AppReal
+  fullName: WinFormsApp2.AppReal
+- uid: TestProject
+  commentId: N:TestProject
+  href: TestProject.html
+  name: TestProject
+  nameWithType: TestProject
+  fullName: TestProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject.AppRealTests.Setup*
+  commentId: Overload:TestProject.AppRealTests.Setup
+  href: TestProject.AppRealTests.html#TestProject_AppRealTests_Setup
+  name: Setup
+  nameWithType: AppRealTests.Setup
+  fullName: TestProject.AppRealTests.Setup
+- uid: TestProject.AppRealTests.Restrictions_ShouldNotThrowException*
+  commentId: Overload:TestProject.AppRealTests.Restrictions_ShouldNotThrowException
+  href: TestProject.AppRealTests.html#TestProject_AppRealTests_Restrictions_ShouldNotThrowException
+  name: Restrictions_ShouldNotThrowException
+  nameWithType: AppRealTests.Restrictions_ShouldNotThrowException
+  fullName: TestProject.AppRealTests.Restrictions_ShouldNotThrowException
+- uid: TestProject.AppRealTests.Constructor_ShouldInitializeInstance*
+  commentId: Overload:TestProject.AppRealTests.Constructor_ShouldInitializeInstance
+  href: TestProject.AppRealTests.html#TestProject_AppRealTests_Constructor_ShouldInitializeInstance
+  name: Constructor_ShouldInitializeInstance
+  nameWithType: AppRealTests.Constructor_ShouldInitializeInstance
+  fullName: TestProject.AppRealTests.Constructor_ShouldInitializeInstance

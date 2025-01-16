@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject.AppWhileTests
+  commentId: T:TestProject.AppWhileTests
+  id: AppWhileTests
+  parent: TestProject
+  children:
+  - TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance
+  - TestProject.AppWhileTests.SetUp
+  - TestProject.AppWhileTests.TearDown
+  langs:
+  - csharp
+  - vb
+  name: AppWhileTests
+  nameWithType: AppWhileTests
+  fullName: TestProject.AppWhileTests
+  type: Class
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppWhileTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppWhileTests
+    path: ../TestProject/AppWhileTests.cs
+    startLine: 13
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Unit tests for the <xref href="WinFormsApp2.AppWhile" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public class AppWhileTests
+    content.vb: Public Class AppWhileTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TestProject.AppWhileTests.SetUp
+  commentId: M:TestProject.AppWhileTests.SetUp
+  id: SetUp
+  parent: TestProject.AppWhileTests
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: AppWhileTests.SetUp()
+  fullName: TestProject.AppWhileTests.SetUp()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppWhileTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: SetUp
+    path: ../TestProject/AppWhileTests.cs
+    startLine: 20
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Sets up the test environment before each test is run.
+  example: []
+  syntax:
+    content: >-
+      [SetUp]
+
+      public void SetUp()
+    content.vb: >-
+      <SetUp>
+
+      Public Sub SetUp()
+  overload: TestProject.AppWhileTests.SetUp*
+  attributes:
+  - type: NUnit.Framework.SetUpAttribute
+    ctor: NUnit.Framework.SetUpAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance
+  commentId: M:TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance
+  id: AppWhile_Constructor_CreatesInstance
+  parent: TestProject.AppWhileTests
+  langs:
+  - csharp
+  - vb
+  name: AppWhile_Constructor_CreatesInstance()
+  nameWithType: AppWhileTests.AppWhile_Constructor_CreatesInstance()
+  fullName: TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppWhileTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppWhile_Constructor_CreatesInstance
+    path: ../TestProject/AppWhileTests.cs
+    startLine: 30
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Tests that the <xref href="WinFormsApp2.AppWhile" data-throw-if-not-resolved="false"></xref> constructor creates an instance successfully.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void AppWhile_Constructor_CreatesInstance()
+    content.vb: >-
+      <Test>
+
+      Public Sub AppWhile_Constructor_CreatesInstance()
+  overload: TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppWhileTests.TearDown
+  commentId: M:TestProject.AppWhileTests.TearDown
+  id: TearDown
+  parent: TestProject.AppWhileTests
+  langs:
+  - csharp
+  - vb
+  name: TearDown()
+  nameWithType: AppWhileTests.TearDown()
+  fullName: TestProject.AppWhileTests.TearDown()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppWhileTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: TearDown
+    path: ../TestProject/AppWhileTests.cs
+    startLine: 44
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Cleans up resources after each test is run.
+  example: []
+  syntax:
+    content: >-
+      [TearDown]
+
+      public void TearDown()
+    content.vb: >-
+      <TearDown>
+
+      Public Sub TearDown()
+  overload: TestProject.AppWhileTests.TearDown*
+  attributes:
+  - type: NUnit.Framework.TearDownAttribute
+    ctor: NUnit.Framework.TearDownAttribute.#ctor
+    arguments: []
+references:
+- uid: WinFormsApp2.AppWhile
+  commentId: T:WinFormsApp2.AppWhile
+  href: WinFormsApp2.AppWhile.html
+  name: AppWhile
+  nameWithType: AppWhile
+  fullName: WinFormsApp2.AppWhile
+- uid: TestProject
+  commentId: N:TestProject
+  href: TestProject.html
+  name: TestProject
+  nameWithType: TestProject
+  fullName: TestProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject.AppWhileTests.SetUp*
+  commentId: Overload:TestProject.AppWhileTests.SetUp
+  href: TestProject.AppWhileTests.html#TestProject_AppWhileTests_SetUp
+  name: SetUp
+  nameWithType: AppWhileTests.SetUp
+  fullName: TestProject.AppWhileTests.SetUp
+- uid: TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance*
+  commentId: Overload:TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance
+  href: TestProject.AppWhileTests.html#TestProject_AppWhileTests_AppWhile_Constructor_CreatesInstance
+  name: AppWhile_Constructor_CreatesInstance
+  nameWithType: AppWhileTests.AppWhile_Constructor_CreatesInstance
+  fullName: TestProject.AppWhileTests.AppWhile_Constructor_CreatesInstance
+- uid: TestProject.AppWhileTests.TearDown*
+  commentId: Overload:TestProject.AppWhileTests.TearDown
+  href: TestProject.AppWhileTests.html#TestProject_AppWhileTests_TearDown
+  name: TearDown
+  nameWithType: AppWhileTests.TearDown
+  fullName: TestProject.AppWhileTests.TearDown

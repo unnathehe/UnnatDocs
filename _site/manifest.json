@@ -1,0 +1,458 @@
+{
+  "source_base_path": "C:/Users/Admin/Downloads/ase-demo-assignment-unnathehe-main/WinFormsApp2/WinFormsApp2",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppArrayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppBooleanTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppBooleanTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppForTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppIfTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppIfTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppIntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppIntTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppRealTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppStoredProgramTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppStoredProgramTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.AppWhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.AppWhileTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestProject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppBool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppClear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppCompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppElse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppFor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppIf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppMoveTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppPeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppPoke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppRect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppReset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppTri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppTri.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppWhile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.AppWriteText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.AppWriteText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WinFormsApp2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WinFormsApp2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+### YamlMime:ManagedReference
+items:
+- uid: WinFormsApp2.AppMethod
+  commentId: T:WinFormsApp2.AppMethod
+  id: AppMethod
+  parent: WinFormsApp2
+  children:
+  - WinFormsApp2.AppMethod.#ctor
+  - WinFormsApp2.AppMethod.Execute
+  - WinFormsApp2.AppMethod.ResetCount(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AppMethod
+  nameWithType: AppMethod
+  fullName: WinFormsApp2.AppMethod
+  type: Class
+  source:
+    remote:
+      path: WinFormsApp2/WinFormsApp2/AppMethod.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppMethod
+    path: AppMethod.cs
+    startLine: 13
+  assemblies:
+  - WinFormsApp2
+  namespace: WinFormsApp2
+  summary: >-
+    Represents the "Method" command, used to define a method in the program.
+
+    Inherits from <xref href="BOOSE.Method" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class AppMethod : Method, ICommand'
+    content.vb: Public Class AppMethod Inherits Method Implements ICommand
+  inheritance:
+  - System.Object
+  - BOOSE.Command
+  - BOOSE.Evaluation
+  - BOOSE.Boolean
+  - BOOSE.ConditionalCommand
+  - BOOSE.CompoundCommand
+  - BOOSE.Method
+  implements:
+  - BOOSE.ICommand
+  inheritedMembers:
+  - BOOSE.Method.CheckParameters(System.String[])
+  - BOOSE.Method.Compile
+  - BOOSE.Method.LocalVariables
+  - BOOSE.Method.MethodName
+  - BOOSE.Method.Type
+  - BOOSE.CompoundCommand.ReduceRestrictions
+  - BOOSE.CompoundCommand.CorrespondingCommand
+  - BOOSE.ConditionalCommand.endLineNumber
+  - BOOSE.ConditionalCommand.EndLineNumber
+  - BOOSE.ConditionalCommand.Condition
+  - BOOSE.ConditionalCommand.LineNumber
+  - BOOSE.ConditionalCommand.CondType
+  - BOOSE.ConditionalCommand.ReturnLineNumber
+  - BOOSE.Boolean.Restrictions
+  - BOOSE.Boolean.BoolValue
+  - BOOSE.Evaluation.expression
+  - BOOSE.Evaluation.evaluatedExpression
+  - BOOSE.Evaluation.varName
+  - BOOSE.Evaluation.value
+  - BOOSE.Evaluation.ProcessExpression(System.String)
+  - BOOSE.Evaluation.Expression
+  - BOOSE.Evaluation.VarName
+  - BOOSE.Evaluation.Value
+  - BOOSE.Evaluation.Local
+  - BOOSE.Command.program
+  - BOOSE.Command.parameterList
+  - BOOSE.Command.parameters
+  - BOOSE.Command.paramsint
+  - BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  - BOOSE.Command.ProcessParameters(System.String)
+  - BOOSE.Command.ToString
+  - BOOSE.Command.Program
+  - BOOSE.Command.Name
+  - BOOSE.Command.ParameterList
+  - BOOSE.Command.Parameters
+  - BOOSE.Command.Paramsint
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: WinFormsApp2.AppMethod.#ctor
+  commentId: M:WinFormsApp2.AppMethod.#ctor
+  id: '#ctor'
+  parent: WinFormsApp2.AppMethod
+  langs:
+  - csharp
+  - vb
+  name: AppMethod()
+  nameWithType: AppMethod.AppMethod()
+  fullName: WinFormsApp2.AppMethod.AppMethod()
+  type: Constructor
+  source:
+    remote:
+      path: WinFormsApp2/WinFormsApp2/AppMethod.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: .ctor
+    path: AppMethod.cs
+    startLine: 19
+  assemblies:
+  - WinFormsApp2
+  namespace: WinFormsApp2
+  summary: >-
+    Initializes a new instance of the <xref href="WinFormsApp2.AppMethod" data-throw-if-not-resolved="false"></xref> class.
+
+    Resets the count to 0 during initialization by calling <xref href="WinFormsApp2.AppMethod.ResetCount(System.Int32)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public AppMethod()
+    content.vb: Public Sub New()
+  overload: WinFormsApp2.AppMethod.#ctor*
+  nameWithType.vb: AppMethod.New()
+  fullName.vb: WinFormsApp2.AppMethod.New()
+  name.vb: New()
+- uid: WinFormsApp2.AppMethod.ResetCount(System.Int32)
+  commentId: M:WinFormsApp2.AppMethod.ResetCount(System.Int32)
+  id: ResetCount(System.Int32)
+  parent: WinFormsApp2.AppMethod
+  langs:
+  - csharp
+  - vb
+  name: ResetCount(int)
+  nameWithType: AppMethod.ResetCount(int)
+  fullName: WinFormsApp2.AppMethod.ResetCount(int)
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/WinFormsApp2/AppMethod.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: ResetCount
+    path: AppMethod.cs
+    startLine: 31
+  assemblies:
+  - WinFormsApp2
+  namespace: WinFormsApp2
+  summary: Resets the static count in the <xref href="BOOSE.Boolean" data-throw-if-not-resolved="false"></xref> class by accessing its private static field "뇀".
+  example: []
+  syntax:
+    content: public void ResetCount(int newVal)
+    parameters:
+    - id: newVal
+      type: System.Int32
+      description: The new value to set for the static count field "뇀".
+    content.vb: Public Sub ResetCount(newVal As Integer)
+  overload: WinFormsApp2.AppMethod.ResetCount*
+  exceptions:
+  - type: BOOSE.BOOSEException
+    commentId: T:BOOSE.BOOSEException
+    description: Thrown when the private static field "뇀" cannot be accessed or updated due to reflection issues.
+  nameWithType.vb: AppMethod.ResetCount(Integer)
+  fullName.vb: WinFormsApp2.AppMethod.ResetCount(Integer)
+  name.vb: ResetCount(Integer)
+- uid: WinFormsApp2.AppMethod.Execute
+  commentId: M:WinFormsApp2.AppMethod.Execute
+  id: Execute
+  parent: WinFormsApp2.AppMethod
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: AppMethod.Execute()
+  fullName: WinFormsApp2.AppMethod.Execute()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/WinFormsApp2/AppMethod.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Execute
+    path: AppMethod.cs
+    startLine: 52
+  assemblies:
+  - WinFormsApp2
+  namespace: WinFormsApp2
+  summary: >-
+    Executes the method by invoking the base class's <xref href="WinFormsApp2.AppMethod.Execute" data-throw-if-not-resolved="false"></xref> method.
+
+    After execution, resets the internal static count to 0 in the <xref href="BOOSE.Boolean" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute()
+  overridden: BOOSE.Method.Execute
+  overload: WinFormsApp2.AppMethod.Execute*
+references:
+- uid: BOOSE.Method
+  commentId: T:BOOSE.Method
+  parent: BOOSE
+  isExternal: true
+  name: Method
+  nameWithType: Method
+  fullName: BOOSE.Method
+- uid: WinFormsApp2
+  commentId: N:WinFormsApp2
+  href: WinFormsApp2.html
+  name: WinFormsApp2
+  nameWithType: WinFormsApp2
+  fullName: WinFormsApp2
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSE.Command
+  commentId: T:BOOSE.Command
+  parent: BOOSE
+  isExternal: true
+  name: Command
+  nameWithType: Command
+  fullName: BOOSE.Command
+- uid: BOOSE.Evaluation
+  commentId: T:BOOSE.Evaluation
+  parent: BOOSE
+  isExternal: true
+  name: Evaluation
+  nameWithType: Evaluation
+  fullName: BOOSE.Evaluation
+- uid: BOOSE.Boolean
+  commentId: T:BOOSE.Boolean
+  parent: BOOSE
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: BOOSE.Boolean
+- uid: BOOSE.ConditionalCommand
+  commentId: T:BOOSE.ConditionalCommand
+  parent: BOOSE
+  isExternal: true
+  name: ConditionalCommand
+  nameWithType: ConditionalCommand
+  fullName: BOOSE.ConditionalCommand
+- uid: BOOSE.CompoundCommand
+  commentId: T:BOOSE.CompoundCommand
+  parent: BOOSE
+  isExternal: true
+  name: CompoundCommand
+  nameWithType: CompoundCommand
+  fullName: BOOSE.CompoundCommand
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand
+- uid: BOOSE.Method.CheckParameters(System.String[])
+  commentId: M:BOOSE.Method.CheckParameters(System.String[])
+  parent: BOOSE.Method
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CheckParameters(string[])
+  nameWithType: Method.CheckParameters(string[])
+  fullName: BOOSE.Method.CheckParameters(string[])
+  nameWithType.vb: Method.CheckParameters(String())
+  fullName.vb: BOOSE.Method.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: BOOSE.Method.CheckParameters(System.String[])
+    name: CheckParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Method.CheckParameters(System.String[])
+    name: CheckParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: BOOSE.Method.Compile
+  commentId: M:BOOSE.Method.Compile
+  parent: BOOSE.Method
+  isExternal: true
+  name: Compile()
+  nameWithType: Method.Compile()
+  fullName: BOOSE.Method.Compile()
+  spec.csharp:
+  - uid: BOOSE.Method.Compile
+    name: Compile
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Method.Compile
+    name: Compile
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Method.LocalVariables
+  commentId: P:BOOSE.Method.LocalVariables
+  parent: BOOSE.Method
+  isExternal: true
+  name: LocalVariables
+  nameWithType: Method.LocalVariables
+  fullName: BOOSE.Method.LocalVariables
+- uid: BOOSE.Method.MethodName
+  commentId: P:BOOSE.Method.MethodName
+  parent: BOOSE.Method
+  isExternal: true
+  name: MethodName
+  nameWithType: Method.MethodName
+  fullName: BOOSE.Method.MethodName
+- uid: BOOSE.Method.Type
+  commentId: P:BOOSE.Method.Type
+  parent: BOOSE.Method
+  isExternal: true
+  name: Type
+  nameWithType: Method.Type
+  fullName: BOOSE.Method.Type
+- uid: BOOSE.CompoundCommand.ReduceRestrictions
+  commentId: M:BOOSE.CompoundCommand.ReduceRestrictions
+  parent: BOOSE.CompoundCommand
+  isExternal: true
+  name: ReduceRestrictions()
+  nameWithType: CompoundCommand.ReduceRestrictions()
+  fullName: BOOSE.CompoundCommand.ReduceRestrictions()
+  spec.csharp:
+  - uid: BOOSE.CompoundCommand.ReduceRestrictions
+    name: ReduceRestrictions
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.CompoundCommand.ReduceRestrictions
+    name: ReduceRestrictions
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.CompoundCommand.CorrespondingCommand
+  commentId: P:BOOSE.CompoundCommand.CorrespondingCommand
+  parent: BOOSE.CompoundCommand
+  isExternal: true
+  name: CorrespondingCommand
+  nameWithType: CompoundCommand.CorrespondingCommand
+  fullName: BOOSE.CompoundCommand.CorrespondingCommand
+- uid: BOOSE.ConditionalCommand.endLineNumber
+  commentId: F:BOOSE.ConditionalCommand.endLineNumber
+  parent: BOOSE.ConditionalCommand
+  isExternal: true
+  name: endLineNumber
+  nameWithType: ConditionalCommand.endLineNumber
+  fullName: BOOSE.ConditionalCommand.endLineNumber
+- uid: BOOSE.ConditionalCommand.EndLineNumber
+  commentId: P:BOOSE.ConditionalCommand.EndLineNumber
+  parent: BOOSE.ConditionalCommand
+  isExternal: true
+  name: EndLineNumber
+  nameWithType: ConditionalCommand.EndLineNumber
+  fullName: BOOSE.ConditionalCommand.EndLineNumber
+- uid: BOOSE.ConditionalCommand.Condition
+  commentId: P:BOOSE.ConditionalCommand.Condition
+  parent: BOOSE.ConditionalCommand
+  isExternal: true
+  name: Condition
+  nameWithType: ConditionalCommand.Condition
+  fullName: BOOSE.ConditionalCommand.Condition
+- uid: BOOSE.ConditionalCommand.LineNumber
+  commentId: P:BOOSE.ConditionalCommand.LineNumber
+  parent: BOOSE.ConditionalCommand
+  isExternal: true
+  name: LineNumber
+  nameWithType: ConditionalCommand.LineNumber
+  fullName: BOOSE.ConditionalCommand.LineNumber
+- uid: BOOSE.ConditionalCommand.CondType
+  commentId: P:BOOSE.ConditionalCommand.CondType
+  parent: BOOSE.ConditionalCommand
+  isExternal: true
+  name: CondType
+  nameWithType: ConditionalCommand.CondType
+  fullName: BOOSE.ConditionalCommand.CondType
+- uid: BOOSE.ConditionalCommand.ReturnLineNumber
+  commentId: P:BOOSE.ConditionalCommand.ReturnLineNumber
+  parent: BOOSE.ConditionalCommand
+  isExternal: true
+  name: ReturnLineNumber
+  nameWithType: ConditionalCommand.ReturnLineNumber
+  fullName: BOOSE.ConditionalCommand.ReturnLineNumber
+- uid: BOOSE.Boolean.Restrictions
+  commentId: M:BOOSE.Boolean.Restrictions
+  parent: BOOSE.Boolean
+  isExternal: true
+  name: Restrictions()
+  nameWithType: Boolean.Restrictions()
+  fullName: BOOSE.Boolean.Restrictions()
+  spec.csharp:
+  - uid: BOOSE.Boolean.Restrictions
+    name: Restrictions
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Boolean.Restrictions
+    name: Restrictions
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Boolean.BoolValue
+  commentId: P:BOOSE.Boolean.BoolValue
+  parent: BOOSE.Boolean
+  isExternal: true
+  name: BoolValue
+  nameWithType: Boolean.BoolValue
+  fullName: BOOSE.Boolean.BoolValue
+- uid: BOOSE.Evaluation.expression
+  commentId: F:BOOSE.Evaluation.expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: expression
+  nameWithType: Evaluation.expression
+  fullName: BOOSE.Evaluation.expression
+- uid: BOOSE.Evaluation.evaluatedExpression
+  commentId: F:BOOSE.Evaluation.evaluatedExpression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: evaluatedExpression
+  nameWithType: Evaluation.evaluatedExpression
+  fullName: BOOSE.Evaluation.evaluatedExpression
+- uid: BOOSE.Evaluation.varName
+  commentId: F:BOOSE.Evaluation.varName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: varName
+  nameWithType: Evaluation.varName
+  fullName: BOOSE.Evaluation.varName
+- uid: BOOSE.Evaluation.value
+  commentId: F:BOOSE.Evaluation.value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: value
+  nameWithType: Evaluation.value
+  fullName: BOOSE.Evaluation.value
+- uid: BOOSE.Evaluation.ProcessExpression(System.String)
+  commentId: M:BOOSE.Evaluation.ProcessExpression(System.String)
+  parent: BOOSE.Evaluation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessExpression(string)
+  nameWithType: Evaluation.ProcessExpression(string)
+  fullName: BOOSE.Evaluation.ProcessExpression(string)
+  nameWithType.vb: Evaluation.ProcessExpression(String)
+  fullName.vb: BOOSE.Evaluation.ProcessExpression(String)
+  name.vb: ProcessExpression(String)
+  spec.csharp:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Evaluation.Expression
+  commentId: P:BOOSE.Evaluation.Expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Expression
+  nameWithType: Evaluation.Expression
+  fullName: BOOSE.Evaluation.Expression
+- uid: BOOSE.Evaluation.VarName
+  commentId: P:BOOSE.Evaluation.VarName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: VarName
+  nameWithType: Evaluation.VarName
+  fullName: BOOSE.Evaluation.VarName
+- uid: BOOSE.Evaluation.Value
+  commentId: P:BOOSE.Evaluation.Value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Value
+  nameWithType: Evaluation.Value
+  fullName: BOOSE.Evaluation.Value
+- uid: BOOSE.Evaluation.Local
+  commentId: P:BOOSE.Evaluation.Local
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Local
+  nameWithType: Evaluation.Local
+  fullName: BOOSE.Evaluation.Local
+- uid: BOOSE.Command.program
+  commentId: F:BOOSE.Command.program
+  parent: BOOSE.Command
+  isExternal: true
+  name: program
+  nameWithType: Command.program
+  fullName: BOOSE.Command.program
+- uid: BOOSE.Command.parameterList
+  commentId: F:BOOSE.Command.parameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameterList
+  nameWithType: Command.parameterList
+  fullName: BOOSE.Command.parameterList
+- uid: BOOSE.Command.parameters
+  commentId: F:BOOSE.Command.parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameters
+  nameWithType: Command.parameters
+  fullName: BOOSE.Command.parameters
+- uid: BOOSE.Command.paramsint
+  commentId: F:BOOSE.Command.paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: paramsint
+  nameWithType: Command.paramsint
+  fullName: BOOSE.Command.paramsint
+- uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  commentId: M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Set(StoredProgram, string)
+  nameWithType: Command.Set(StoredProgram, string)
+  fullName: BOOSE.Command.Set(BOOSE.StoredProgram, string)
+  nameWithType.vb: Command.Set(StoredProgram, String)
+  fullName.vb: BOOSE.Command.Set(BOOSE.StoredProgram, String)
+  name.vb: Set(StoredProgram, String)
+  spec.csharp:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ProcessParameters(System.String)
+  commentId: M:BOOSE.Command.ProcessParameters(System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessParameters(string)
+  nameWithType: Command.ProcessParameters(string)
+  fullName: BOOSE.Command.ProcessParameters(string)
+  nameWithType.vb: Command.ProcessParameters(String)
+  fullName.vb: BOOSE.Command.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ToString
+  commentId: M:BOOSE.Command.ToString
+  parent: BOOSE.Command
+  isExternal: true
+  name: ToString()
+  nameWithType: Command.ToString()
+  fullName: BOOSE.Command.ToString()
+  spec.csharp:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Command.Program
+  commentId: P:BOOSE.Command.Program
+  parent: BOOSE.Command
+  isExternal: true
+  name: Program
+  nameWithType: Command.Program
+  fullName: BOOSE.Command.Program
+- uid: BOOSE.Command.Name
+  commentId: P:BOOSE.Command.Name
+  parent: BOOSE.Command
+  isExternal: true
+  name: Name
+  nameWithType: Command.Name
+  fullName: BOOSE.Command.Name
+- uid: BOOSE.Command.ParameterList
+  commentId: P:BOOSE.Command.ParameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: ParameterList
+  nameWithType: Command.ParameterList
+  fullName: BOOSE.Command.ParameterList
+- uid: BOOSE.Command.Parameters
+  commentId: P:BOOSE.Command.Parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: Parameters
+  nameWithType: Command.Parameters
+  fullName: BOOSE.Command.Parameters
+- uid: BOOSE.Command.Paramsint
+  commentId: P:BOOSE.Command.Paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: Paramsint
+  nameWithType: Command.Paramsint
+  fullName: BOOSE.Command.Paramsint
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WinFormsApp2.AppMethod
+  commentId: T:WinFormsApp2.AppMethod
+  href: WinFormsApp2.AppMethod.html
+  name: AppMethod
+  nameWithType: AppMethod
+  fullName: WinFormsApp2.AppMethod
+- uid: WinFormsApp2.AppMethod.ResetCount(System.Int32)
+  commentId: M:WinFormsApp2.AppMethod.ResetCount(System.Int32)
+  isExternal: true
+  href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_ResetCount_System_Int32_
+  name: ResetCount(int)
+  nameWithType: AppMethod.ResetCount(int)
+  fullName: WinFormsApp2.AppMethod.ResetCount(int)
+  nameWithType.vb: AppMethod.ResetCount(Integer)
+  fullName.vb: WinFormsApp2.AppMethod.ResetCount(Integer)
+  name.vb: ResetCount(Integer)
+  spec.csharp:
+  - uid: WinFormsApp2.AppMethod.ResetCount(System.Int32)
+    name: ResetCount
+    href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_ResetCount_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: WinFormsApp2.AppMethod.ResetCount(System.Int32)
+    name: ResetCount
+    href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_ResetCount_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: WinFormsApp2.AppMethod.#ctor*
+  commentId: Overload:WinFormsApp2.AppMethod.#ctor
+  href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod__ctor
+  name: AppMethod
+  nameWithType: AppMethod.AppMethod
+  fullName: WinFormsApp2.AppMethod.AppMethod
+  nameWithType.vb: AppMethod.New
+  fullName.vb: WinFormsApp2.AppMethod.New
+  name.vb: New
+- uid: BOOSE.BOOSEException
+  commentId: T:BOOSE.BOOSEException
+  isExternal: true
+  name: BOOSEException
+  nameWithType: BOOSEException
+  fullName: BOOSE.BOOSEException
+- uid: WinFormsApp2.AppMethod.ResetCount*
+  commentId: Overload:WinFormsApp2.AppMethod.ResetCount
+  href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_ResetCount_System_Int32_
+  name: ResetCount
+  nameWithType: AppMethod.ResetCount
+  fullName: WinFormsApp2.AppMethod.ResetCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WinFormsApp2.AppMethod.Execute
+  commentId: M:WinFormsApp2.AppMethod.Execute
+  href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_Execute
+  name: Execute()
+  nameWithType: AppMethod.Execute()
+  fullName: WinFormsApp2.AppMethod.Execute()
+  spec.csharp:
+  - uid: WinFormsApp2.AppMethod.Execute
+    name: Execute
+    href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: WinFormsApp2.AppMethod.Execute
+    name: Execute
+    href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_Execute
+  - name: (
+  - name: )
+- uid: BOOSE.Method.Execute
+  commentId: M:BOOSE.Method.Execute
+  parent: BOOSE.Method
+  isExternal: true
+  name: Execute()
+  nameWithType: Method.Execute()
+  fullName: BOOSE.Method.Execute()
+  spec.csharp:
+  - uid: BOOSE.Method.Execute
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Method.Execute
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: )
+- uid: WinFormsApp2.AppMethod.Execute*
+  commentId: Overload:WinFormsApp2.AppMethod.Execute
+  href: WinFormsApp2.AppMethod.html#WinFormsApp2_AppMethod_Execute
+  name: Execute
+  nameWithType: AppMethod.Execute
+  fullName: WinFormsApp2.AppMethod.Execute

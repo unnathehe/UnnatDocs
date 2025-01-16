@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject.AppIntTests
+  commentId: T:TestProject.AppIntTests
+  id: AppIntTests
+  parent: TestProject
+  children:
+  - TestProject.AppIntTests.AppInt_Instance_Created_Successfully
+  - TestProject.AppIntTests.Restrictions_DoesNotThrowException
+  - TestProject.AppIntTests.SetUp
+  langs:
+  - csharp
+  - vb
+  name: AppIntTests
+  nameWithType: AppIntTests
+  fullName: TestProject.AppIntTests
+  type: Class
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppIntTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppIntTests
+    path: ../TestProject/AppIntTests.cs
+    startLine: 9
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  syntax:
+    content: >-
+      [TestFixture]
+
+      public class AppIntTests
+    content.vb: >-
+      <TestFixture>
+
+      Public Class AppIntTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NUnit.Framework.TestFixtureAttribute
+    ctor: NUnit.Framework.TestFixtureAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppIntTests.SetUp
+  commentId: M:TestProject.AppIntTests.SetUp
+  id: SetUp
+  parent: TestProject.AppIntTests
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: AppIntTests.SetUp()
+  fullName: TestProject.AppIntTests.SetUp()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppIntTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: SetUp
+    path: ../TestProject/AppIntTests.cs
+    startLine: 20
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Sets up the test environment by initializing a new instance of <xref href="WinFormsApp2.AppInt" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [SetUp]
+
+      public void SetUp()
+    content.vb: >-
+      <SetUp>
+
+      Public Sub SetUp()
+  overload: TestProject.AppIntTests.SetUp*
+  attributes:
+  - type: NUnit.Framework.SetUpAttribute
+    ctor: NUnit.Framework.SetUpAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppIntTests.AppInt_Instance_Created_Successfully
+  commentId: M:TestProject.AppIntTests.AppInt_Instance_Created_Successfully
+  id: AppInt_Instance_Created_Successfully
+  parent: TestProject.AppIntTests
+  langs:
+  - csharp
+  - vb
+  name: AppInt_Instance_Created_Successfully()
+  nameWithType: AppIntTests.AppInt_Instance_Created_Successfully()
+  fullName: TestProject.AppIntTests.AppInt_Instance_Created_Successfully()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppIntTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppInt_Instance_Created_Successfully
+    path: ../TestProject/AppIntTests.cs
+    startLine: 29
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Verifies that an instance of <xref href="WinFormsApp2.AppInt" data-throw-if-not-resolved="false"></xref> is created successfully.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void AppInt_Instance_Created_Successfully()
+    content.vb: >-
+      <Test>
+
+      Public Sub AppInt_Instance_Created_Successfully()
+  overload: TestProject.AppIntTests.AppInt_Instance_Created_Successfully*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppIntTests.Restrictions_DoesNotThrowException
+  commentId: M:TestProject.AppIntTests.Restrictions_DoesNotThrowException
+  id: Restrictions_DoesNotThrowException
+  parent: TestProject.AppIntTests
+  langs:
+  - csharp
+  - vb
+  name: Restrictions_DoesNotThrowException()
+  nameWithType: AppIntTests.Restrictions_DoesNotThrowException()
+  fullName: TestProject.AppIntTests.Restrictions_DoesNotThrowException()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppIntTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Restrictions_DoesNotThrowException
+    path: ../TestProject/AppIntTests.cs
+    startLine: 42
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Verifies that the Restrictions method does not throw an exception when called.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Restrictions_DoesNotThrowException()
+    content.vb: >-
+      <Test>
+
+      Public Sub Restrictions_DoesNotThrowException()
+  overload: TestProject.AppIntTests.Restrictions_DoesNotThrowException*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+references:
+- uid: TestProject
+  commentId: N:TestProject
+  href: TestProject.html
+  name: TestProject
+  nameWithType: TestProject
+  fullName: TestProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WinFormsApp2.AppInt
+  commentId: T:WinFormsApp2.AppInt
+  href: WinFormsApp2.AppInt.html
+  name: AppInt
+  nameWithType: AppInt
+  fullName: WinFormsApp2.AppInt
+- uid: TestProject.AppIntTests.SetUp*
+  commentId: Overload:TestProject.AppIntTests.SetUp
+  href: TestProject.AppIntTests.html#TestProject_AppIntTests_SetUp
+  name: SetUp
+  nameWithType: AppIntTests.SetUp
+  fullName: TestProject.AppIntTests.SetUp
+- uid: TestProject.AppIntTests.AppInt_Instance_Created_Successfully*
+  commentId: Overload:TestProject.AppIntTests.AppInt_Instance_Created_Successfully
+  href: TestProject.AppIntTests.html#TestProject_AppIntTests_AppInt_Instance_Created_Successfully
+  name: AppInt_Instance_Created_Successfully
+  nameWithType: AppIntTests.AppInt_Instance_Created_Successfully
+  fullName: TestProject.AppIntTests.AppInt_Instance_Created_Successfully
+- uid: TestProject.AppIntTests.Restrictions_DoesNotThrowException*
+  commentId: Overload:TestProject.AppIntTests.Restrictions_DoesNotThrowException
+  href: TestProject.AppIntTests.html#TestProject_AppIntTests_Restrictions_DoesNotThrowException
+  name: Restrictions_DoesNotThrowException
+  nameWithType: AppIntTests.Restrictions_DoesNotThrowException
+  fullName: TestProject.AppIntTests.Restrictions_DoesNotThrowException

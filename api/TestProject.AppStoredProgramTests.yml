@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject.AppStoredProgramTests
+  commentId: T:TestProject.AppStoredProgramTests
+  id: AppStoredProgramTests
+  parent: TestProject
+  children:
+  - TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully
+  - TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException
+  - TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow
+  - TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully
+  - TestProject.AppStoredProgramTests.SetUp
+  - TestProject.AppStoredProgramTests.TearDown
+  langs:
+  - csharp
+  - vb
+  name: AppStoredProgramTests
+  nameWithType: AppStoredProgramTests
+  fullName: TestProject.AppStoredProgramTests
+  type: Class
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: AppStoredProgramTests
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 10
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Unit tests for the <xref href="WinFormsApp2.AppStoredProgram" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestFixture]
+
+      public class AppStoredProgramTests
+    content.vb: >-
+      <TestFixture>
+
+      Public Class AppStoredProgramTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NUnit.Framework.TestFixtureAttribute
+    ctor: NUnit.Framework.TestFixtureAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppStoredProgramTests.SetUp
+  commentId: M:TestProject.AppStoredProgramTests.SetUp
+  id: SetUp
+  parent: TestProject.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: AppStoredProgramTests.SetUp()
+  fullName: TestProject.AppStoredProgramTests.SetUp()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: SetUp
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 18
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Sets up the test environment by initializing the <xref href="WinFormsApp2.AppStoredProgram" data-throw-if-not-resolved="false"></xref> instance.
+  example: []
+  syntax:
+    content: >-
+      [SetUp]
+
+      public void SetUp()
+    content.vb: >-
+      <SetUp>
+
+      Public Sub SetUp()
+  overload: TestProject.AppStoredProgramTests.SetUp*
+  attributes:
+  - type: NUnit.Framework.SetUpAttribute
+    ctor: NUnit.Framework.SetUpAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully
+  commentId: M:TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully
+  id: Constructor_InitializesSuccessfully
+  parent: TestProject.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_InitializesSuccessfully()
+  nameWithType: AppStoredProgramTests.Constructor_InitializesSuccessfully()
+  fullName: TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Constructor_InitializesSuccessfully
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 28
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Verifies that the constructor initializes an instance of <xref href="WinFormsApp2.AppStoredProgram" data-throw-if-not-resolved="false"></xref> successfully.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Constructor_InitializesSuccessfully()
+    content.vb: >-
+      <Test>
+
+      Public Sub Constructor_InitializesSuccessfully()
+  overload: TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow
+  commentId: M:TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow
+  id: Run_WithNoCommands_DoesNotThrow
+  parent: TestProject.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: Run_WithNoCommands_DoesNotThrow()
+  nameWithType: AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow()
+  fullName: TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Run_WithNoCommands_DoesNotThrow
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 45
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Ensures that running the program with no commands does not throw any exceptions.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Run_WithNoCommands_DoesNotThrow()
+    content.vb: >-
+      <Test>
+
+      Public Sub Run_WithNoCommands_DoesNotThrow()
+  overload: TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully
+  commentId: M:TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully
+  id: Run_WithValidCommand_ExecutesSuccessfully
+  parent: TestProject.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: Run_WithValidCommand_ExecutesSuccessfully()
+  nameWithType: AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully()
+  fullName: TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Run_WithValidCommand_ExecutesSuccessfully
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 61
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Tests that running the program with valid commands executes successfully.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Run_WithValidCommand_ExecutesSuccessfully()
+    content.vb: >-
+      <Test>
+
+      Public Sub Run_WithValidCommand_ExecutesSuccessfully()
+  overload: TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException
+  commentId: M:TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException
+  id: Run_WithInvalidCommand_ThrowsStoredProgramException
+  parent: TestProject.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: Run_WithInvalidCommand_ThrowsStoredProgramException()
+  nameWithType: AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException()
+  fullName: TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: Run_WithInvalidCommand_ThrowsStoredProgramException
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 77
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Verifies that running the program with invalid commands throws a <xref href="BOOSE.StoredProgramException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [Test]
+
+      public void Run_WithInvalidCommand_ThrowsStoredProgramException()
+    content.vb: >-
+      <Test>
+
+      Public Sub Run_WithInvalidCommand_ThrowsStoredProgramException()
+  overload: TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: TestProject.AppStoredProgramTests.TearDown
+  commentId: M:TestProject.AppStoredProgramTests.TearDown
+  id: TearDown
+  parent: TestProject.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: TearDown()
+  nameWithType: AppStoredProgramTests.TearDown()
+  fullName: TestProject.AppStoredProgramTests.TearDown()
+  type: Method
+  source:
+    remote:
+      path: WinFormsApp2/TestProject/AppStoredProgramTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-unnathehe
+    id: TearDown
+    path: ../TestProject/AppStoredProgramTests.cs
+    startLine: 97
+  assemblies:
+  - TestProject
+  namespace: TestProject
+  summary: Cleans up the test environment by setting the <xref href="WinFormsApp2.AppStoredProgram" data-throw-if-not-resolved="false"></xref> instance as null after each test.
+  example: []
+  syntax:
+    content: >-
+      [TearDown]
+
+      public void TearDown()
+    content.vb: >-
+      <TearDown>
+
+      Public Sub TearDown()
+  overload: TestProject.AppStoredProgramTests.TearDown*
+  attributes:
+  - type: NUnit.Framework.TearDownAttribute
+    ctor: NUnit.Framework.TearDownAttribute.#ctor
+    arguments: []
+references:
+- uid: WinFormsApp2.AppStoredProgram
+  commentId: T:WinFormsApp2.AppStoredProgram
+  href: WinFormsApp2.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: WinFormsApp2.AppStoredProgram
+- uid: TestProject
+  commentId: N:TestProject
+  href: TestProject.html
+  name: TestProject
+  nameWithType: TestProject
+  fullName: TestProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject.AppStoredProgramTests.SetUp*
+  commentId: Overload:TestProject.AppStoredProgramTests.SetUp
+  href: TestProject.AppStoredProgramTests.html#TestProject_AppStoredProgramTests_SetUp
+  name: SetUp
+  nameWithType: AppStoredProgramTests.SetUp
+  fullName: TestProject.AppStoredProgramTests.SetUp
+- uid: TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully*
+  commentId: Overload:TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully
+  href: TestProject.AppStoredProgramTests.html#TestProject_AppStoredProgramTests_Constructor_InitializesSuccessfully
+  name: Constructor_InitializesSuccessfully
+  nameWithType: AppStoredProgramTests.Constructor_InitializesSuccessfully
+  fullName: TestProject.AppStoredProgramTests.Constructor_InitializesSuccessfully
+- uid: TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow*
+  commentId: Overload:TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow
+  href: TestProject.AppStoredProgramTests.html#TestProject_AppStoredProgramTests_Run_WithNoCommands_DoesNotThrow
+  name: Run_WithNoCommands_DoesNotThrow
+  nameWithType: AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow
+  fullName: TestProject.AppStoredProgramTests.Run_WithNoCommands_DoesNotThrow
+- uid: TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully*
+  commentId: Overload:TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully
+  href: TestProject.AppStoredProgramTests.html#TestProject_AppStoredProgramTests_Run_WithValidCommand_ExecutesSuccessfully
+  name: Run_WithValidCommand_ExecutesSuccessfully
+  nameWithType: AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully
+  fullName: TestProject.AppStoredProgramTests.Run_WithValidCommand_ExecutesSuccessfully
+- uid: BOOSE.StoredProgramException
+  commentId: T:BOOSE.StoredProgramException
+  isExternal: true
+  name: StoredProgramException
+  nameWithType: StoredProgramException
+  fullName: BOOSE.StoredProgramException
+- uid: TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException*
+  commentId: Overload:TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException
+  href: TestProject.AppStoredProgramTests.html#TestProject_AppStoredProgramTests_Run_WithInvalidCommand_ThrowsStoredProgramException
+  name: Run_WithInvalidCommand_ThrowsStoredProgramException
+  nameWithType: AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException
+  fullName: TestProject.AppStoredProgramTests.Run_WithInvalidCommand_ThrowsStoredProgramException
+- uid: TestProject.AppStoredProgramTests.TearDown*
+  commentId: Overload:TestProject.AppStoredProgramTests.TearDown
+  href: TestProject.AppStoredProgramTests.html#TestProject_AppStoredProgramTests_TearDown
+  name: TearDown
+  nameWithType: AppStoredProgramTests.TearDown
+  fullName: TestProject.AppStoredProgramTests.TearDown
